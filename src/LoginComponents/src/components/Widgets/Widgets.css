@@ -1,0 +1,47 @@
+.widget {
+  /* Text properties */
+  /* font-family: 'Gotham', sans-serif; */
+  font-style: normal;
+  font-weight: 350;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  letter-spacing: 0.4px;
+  color: #000000;
+
+  /* Layout details */
+  padding: 1rem;
+  border: 1px solid #c4c4c4;
+  border-radius: 1rem;
+
+  /* To center align text content */
+  display: table;
+  text-align: center;
+}
+
+.text-widget {
+  /* Layout details */
+  width: 12.5rem;
+  height: 4rem;
+}
+
+.decision-widget {
+  /* Layout details */
+  width: 6.25rem;
+  height: 6.25rem;
+
+  /* Rotate to create rhombus */
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.text {
+  /* To center align text content */
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.dw-text {
+  /* Reverse rotate the text inside rhombus */
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}

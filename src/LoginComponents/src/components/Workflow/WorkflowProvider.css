@@ -1,0 +1,43 @@
+.dnd-flow {
+  height: 30.6rem;
+}
+
+.dnd-flow .react-flow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.text-widget-top-handel {
+  padding: 0.25rem;
+  /* margin-top: -2px; */
+  background: #20b283;
+  border: none;
+}
+
+.text-widget-bottom-handel {
+  padding: 0.25rem;
+  /* margin-bottom: -2px; */
+  background: #223e80;
+  border: none;
+}
+
+.decision-widget-top-handel {
+  padding: 0.25rem;
+  margin-top: -1.56rem;
+  background: #20b283;
+  border: none;
+}
+
+.decision-widget-left-handel {
+  padding: 0.25rem;
+  margin-left: -1.56rem;
+  background: #80ff80;
+  border: none;
+}
+
+.decision-widget-right-handel {
+  padding: 0.25rem;
+  margin-right: -1.56rem;
+  background: #ff9980;
+  border: none;
+}
